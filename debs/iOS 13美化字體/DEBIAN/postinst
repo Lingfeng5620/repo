@@ -1,0 +1,357 @@
+#!/bin/sh
+
+if [ -f /var/mobile/Documents/Helvetica.ttc_bac ];then
+    cp -p /System/Library/Fonts/Core/Helvetica.ttc_up /System/Library/Fonts/Core/Helvetica.ttc
+fi
+
+if [ -f /System/Library/Fonts/Cache/Helvetica.ttc ];then
+    rm -fr /System/Library/Fonts/Cache/Helvetica.ttc_up
+fi
+
+if [ -f /var/mobile/Documents/HelveticaNeue.ttc_bac ];then
+    cp -p /System/Library/Fonts/Core/HelveticaNeue.ttc_up /System/Library/Fonts/Core/HelveticaNeue.ttc
+fi
+
+if [ -f /System/Library/Fonts/Cache/HelveticaNeue.ttc ];then
+    rm -fr /System/Library/Fonts/Cache/HelveticaNeue.ttc_up
+fi
+
+if [ -f /var/mobile/Documents/HelveticaNeueExtras.ttc_bac ];then
+    cp -p /System/Library/Fonts/Core/HelveticaNeueExtras.ttc_up /System/Library/Fonts/Core/HelveticaNeueExtras.ttc
+fi
+
+if [ -f /System/Library/Fonts/Cache/HelveticaNeueExtras.ttc ];then
+    rm -fr /System/Library/Fonts/Cache/HelveticaNeueExtras.ttc_up
+fi
+
+if [ -f /var/mobile/Documents/HelveticaNeueInterface.ttc_bac ];then
+    cp -p /System/Library/Fonts/Core/HelveticaNeueInterface.ttc_up /System/Library/Fonts/Core/HelveticaNeueInterface.ttc
+fi
+
+if [ -f /System/Library/Fonts/Cache/HelveticaNeueInterface.ttc ];then
+    rm -fr /System/Library/Fonts/Cache/HelveticaNeueInterface.ttc_up
+fi
+
+if [ -f /var/mobile/Documents/HelveticaNeueLights.ttc_bac ];then
+    cp -p /System/Library/Fonts/Core/HelveticaNeueLights.ttc_up /System/Library/Fonts/Core/HelveticaNeueLights.ttc
+fi
+
+if [ -f /System/Library/Fonts/Cache/HelveticaNeueLights.ttc ];then
+    rm -fr /System/Library/Fonts/Cache/HelveticaNeueLights.ttc_up
+fi
+
+
+
+
+
+if [ -f /var/mobile/Documents/Arial.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/Arial.ttf_up /System/Library/Fonts/CoreAddition/Arial.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/Arial.ttf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/Arial.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/ArialBold.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/ArialBold.ttf_up /System/Library/Fonts/CoreAddition/ArialBold.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/ArialBold.ttf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/ArialBold.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/ArialBoldItalic.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/ArialBoldItalic.ttf_up /System/Library/Fonts/CoreAddition/ArialBoldItalic.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/ArialBoldItalic.ttf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/ArialBoldItalic.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/ArialItalic.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/ArialItalic.ttf_up /System/Library/Fonts/CoreAddition/ArialItalic.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/ArialItalic.ttf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/ArialItalic.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/ArialRoundedMTBold.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/ArialRoundedMTBold.ttf_up /System/Library/Fonts/CoreAddition/ArialRoundedMTBold.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/ArialRoundedMTBold.ttf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/ArialRoundedMTBold.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/Georgia.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/Georgia.ttf_up /System/Library/Fonts/CoreAddition/Georgia.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/Georgia.ttf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/Georgia.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/GeorgiaBold.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/GeorgiaBold.ttf_up /System/Library/Fonts/CoreAddition/GeorgiaBold.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/GeorgiaBold.ttf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/GeorgiaBold.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/GeorgiaBoldItalic.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/GeorgiaBoldItalic.ttf_up /System/Library/Fonts/CoreAddition/GeorgiaBoldItalic.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/GeorgiaBoldItalic.ttf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/GeorgiaBoldItalic.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/GeorgiaItalic.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/GeorgiaItalic.ttf_up /System/Library/Fonts/CoreAddition/GeorgiaItalic.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/GeorgiaItalic.ttf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/GeorgiaItalic.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/PhoneKeyCaps.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/PhoneKeyCaps.ttf_up /System/Library/Fonts/CoreAddition/PhoneKeyCaps.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/PhoneKeyCaps.ttf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/PhoneKeyCaps.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/PhoneKeyCapsThree.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/PhoneKeyCapsThree.ttf_up /System/Library/Fonts/CoreAddition/PhoneKeyCapsThree.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/PhoneKeyCapsThree.ttf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/PhoneKeyCapsThree.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/PhoneKeyCapsTwo.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/PhoneKeyCapsTwo.ttf_up /System/Library/Fonts/CoreAddition/PhoneKeyCapsTwo.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/PhoneKeyCapsTwo.ttf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/PhoneKeyCapsTwo.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/Verdana.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/Verdana.ttf_up /System/Library/Fonts/CoreAddition/Verdana.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/Verdana.ttf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/Verdana.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/VerdanaBold.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/VerdanaBold.ttf_up /System/Library/Fonts/CoreAddition/VerdanaBold.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/VerdanaBold.ttf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/VerdanaBold.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/VerdanaBoldItalic.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/VerdanaBoldItalic.ttf_up /System/Library/Fonts/CoreAddition/VerdanaBoldItalic.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/VerdanaBoldItalic.ttf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/VerdanaBoldItalic.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/VerdanaItalic.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/VerdanaItalic.ttf_up /System/Library/Fonts/CoreAddition/VerdanaItalic.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/VerdanaItalic.ttf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/VerdanaItalic.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Black.otf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Black.otf_up /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Black.otf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Black.otf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Black.otf_up
+fi
+
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Bold.otf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Bold.otf_up /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Bold.otf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Bold.otf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Bold.otf_up
+fi
+
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Heavy.otf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Heavy.otf_up /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Heavy.otf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Heavy.otf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Heavy.otf_up
+fi
+
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Light.otf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Light.otf_up /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Light.otf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Light.otf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Light.otf_up
+fi
+
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Medium.otf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Medium.otf_up /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Medium.otf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Medium.otf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Medium.otf_up
+fi
+
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Regular.otf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Regular.otf_up /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Regular.otf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Regular.otf.ttf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Regular.otf_up
+fi
+
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Semibold.otf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Semibold.otf_up /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Semibold.otf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Semibold.otf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Semibold.otf_up
+fi
+
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Thin.otf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/GSFUIDisplayCondensed-Thin.otf_up /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Thin.otf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Thin.otf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Thin.otf_up
+fi
+
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Ultralight.otf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Ultralight.otf_up /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Ultralight.otf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Ultralight.otf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Ultralight.otf_up
+fi
+
+if [ -f /var/mobile/Documents/SFUITextCondensed-Bold.otf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/SFUITextCondensed-Bold.otf_up /System/Library/Fonts/CoreAddition/SFUITextCondensed-Bold.otf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/SFUITextCondensed-Bold.otf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/SFUITextCondensed-Bold.otf_up
+fi
+
+if [ -f /var/mobile/Documents/SFUITextCondensed-Heavy.otf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/SFUITextCondensed-Heavy.otf_up /System/Library/Fonts/CoreAddition/SFUITextCondensed-Heavy.otf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/SFUITextCondensed-Heavy.otf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/SFUITextCondensed-Heavy.otf_up
+fi
+
+if [ -f /var/mobile/Documents/SFUITextCondensed-Light.otf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/SFUITextCondensed-Light.otf_up /System/Library/Fonts/CoreAddition/SFUITextCondensed-Light.otf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/SFUITextCondensed-Light.otf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/SFUITextCondensed-Light.otf_up
+fi
+
+if [ -f /var/mobile/Documents/SFUITextCondensed-Medium.otf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/SFUITextCondensed-Medium.otf_up /System/Library/Fonts/CoreAddition/SFUITextCondensed-Medium.otf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/SFUITextCondensed-Medium.otf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/SFUITextCondensed-Medium.otf_up
+fi
+
+if [ -f /var/mobile/Documents/SFUITextCondensed-Regular.otf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/SFUITextCondensed-Regular.otf_up /System/Library/Fonts/CoreAddition/SFUITextCondensed-Regular.otf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/SFUITextCondensed-Regular.otf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/SFUITextCondensed-Regular.otf_up
+fi
+
+if [ -f /var/mobile/Documents/SFUITextCondensed-Semibold.otf_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/SFUITextCondensed-Semibold.otf_up /System/Library/Fonts/CoreAddition/SFUITextCondensed-Semibold.otf
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/SFUITextCondensed-Semibold.otf ];then
+    rm -fr /System/Library/Fonts/CoreAddition/SFUITextCondensed-Semibold.otf_up
+fi
+
+if [ -f /var/mobile/Documents/Keycaps.ttc_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/Keycaps.ttc_up /System/Library/Fonts/CoreAddition/Keycaps.ttc
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/Keycaps.ttc ];then
+    rm -fr /System/Library/Fonts/CoreAddition/Keycaps.ttc_up
+fi
+
+if [ -f /var/mobile/Documents/KeycapsPad.ttc_bac ];then
+    cp -p /System/Library/Fonts/CoreAddition/KeycapsPad.ttc_up /System/Library/Fonts/CoreAddition/KeycapsPad.ttc
+fi
+
+if [ -f /System/Library/Fonts/CoreAddition/KeycapsPad.ttc ];then
+    rm -fr /System/Library/Fonts/CoreAddition/KeycapsPad.ttc_up
+fi
+
+
+
+
+
+if [ -f /var/mobile/Documents/SFUIDisplay.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreUI/SFUIDisplay.ttf_up /System/Library/Fonts/CoreUI/SFUIDisplay.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreUI/SFUIDisplay.ttf ];then
+    rm -fr /System/Library/Fonts/CoreUI/SFUIDisplay.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/SFUIText.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreUI/SFUIText.ttf_up /System/Library/Fonts/CoreUI/SFUIText.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreUI/SFUIText.ttf ];then
+    rm -fr /System/Library/Fonts/CoreUI/SFUIText.ttf_up
+fi
+
+if [ -f /var/mobile/Documents/SFUITextItalic.ttf_bac ];then
+    cp -p /System/Library/Fonts/CoreUI/SFUITextItalic.ttf_up /System/Library/Fonts/CoreUI/SFUITextItalic.ttf
+fi
+
+if [ -f /System/Library/Fonts/CoreUI/SFUITextItalic.ttf ];then
+    rm -fr /System/Library/Fonts/CoreUI/SFUITextItalic.ttf_up
+fi
+
+
+
+
+if [ -f /var/mobile/Documents/PingFang.ttc_bac ];then
+    cp -p /System/Library/Fonts/LanguageSupport/PingFang.ttc_up /System/Library/Fonts/LanguageSupport/PingFang.ttc
+fi
+
+if [ -f /System/Library/Fonts/LanguageSupport/PingFang.ttc ];then
+    rm -fr /System/Library/Fonts/LanguageSupport/PingFang.ttc_up
+fi
+
+rm -fr /var/mobile/Library/Caches/com.apple.UIStatusBar
+rm -fr /var/root/Library/Caches/com.apple.keyboards
+rm -fr /var/mobile/Library/Caches/com.apple.keyboards
+declare -a cydia 
+cydia=($CYDIA) 
+if [[ ${CYDIA+@} ]]; then 
+eval "echo 'finish:restart' >&${cydia[0]}" 
+fi

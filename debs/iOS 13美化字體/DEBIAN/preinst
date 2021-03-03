@@ -1,0 +1,290 @@
+#!/bin/sh
+
+if [ -f /var/mobile/Documents/Helvetica.ttc_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/Core/Helvetica.ttc /var/mobile/Documents/Helvetica.ttc_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/HelveticaNeue.ttc_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/Core/HelveticaNeue.ttc /var/mobile/Documents/HelveticaNeue.ttc_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/HelveticaNeueExtras.ttc_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/Core/HelveticaNeueExtras.ttc /var/mobile/Documents/HelveticaNeueExtras.ttc_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/HelveticaNeueInterface.ttc_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/Core/HelveticaNeueInterface.ttc /var/mobile/Documents/HelveticaNeueInterface.ttc_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/HelveticaNeueLights.ttc_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/Core/HelveticaNeueLights.ttc /var/mobile/Documents/HelveticaNeueLights.ttc_bac
+	echo 'Back up'
+fi
+
+
+
+
+
+if [ -f /var/mobile/Documents/Arial.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/Arial.ttf /var/mobile/Documents/Arial.ttf_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/ArialBold.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/ArialBold.ttf /var/mobile/Documents/ArialBold.ttf_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/ArialBoldItalic.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/ArialBoldItalic.ttf /var/mobile/Documents/ArialBoldItalic.ttf_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/ArialItalic.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/ArialItalic.ttf /var/mobile/Documents/ArialItalic.ttf_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/ArialRoundedMTBold.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/ArialRoundedMTBold.ttf /var/mobile/Documents/ArialRoundedMTBold.ttf_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/Georgia.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/Georgia.ttf /var/mobile/Documents/Georgia.ttf_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/GeorgiaBold.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/GeorgiaBold.ttf /var/mobile/Documents/GeorgiaBold.ttf_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/GeorgiaBoldItalic.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/GeorgiaBoldItalic.ttf /var/mobile/Documents/GeorgiaBoldItalic.ttf_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/GeorgiaItalic.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/GeorgiaItalic.ttf /var/mobile/Documents/GeorgiaItalic.ttf_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/PhoneKeyCaps.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/PhoneKeyCaps.ttf /var/mobile/Documents/PhoneKeyCaps.ttf_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/PhoneKeyCapsThree.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/PhoneKeyCapsThree.ttf /var/mobile/Documents/PhoneKeyCapsThree.ttf_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/PhoneKeyCapsTwo.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/PhoneKeyCapsTwo.ttf /var/mobile/Documents/PhoneKeyCapsTwo.ttf_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/Verdana.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/Verdana.ttf /var/mobile/Documents/Verdana.ttf_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/VerdanaItalic.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/VerdanaItalic.ttf /var/mobile/Documents/VerdanaItalic.ttf_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/VerdanaBold.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/VerdanaBold.ttf /var/mobile/Documents/VerdanaBold.ttf_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/VerdanaBoldItalic.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/VerdanaBoldItalic.ttf /var/mobile/Documents/VerdanaBoldItalic.ttf_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/KeycapsPad.ttc_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/KeycapsPad.ttc /var/mobile/Documents/KeycapsPad.ttc_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/Keycaps.ttc_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/Keycaps.ttc /var/mobile/Documents/Keycaps.ttc_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Black.otf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Black.otf /var/mobile/Documents/SFUIDisplayCondensed-Black.otf_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Bold.otf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Bold.otf /var/mobile/Documents/SFUIDisplayCondensed-Bold.otf_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Heavy.otf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Heavy.otf /var/mobile/Documents/SFUIDisplayCondensed-Heavy.otf_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Light.otf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Light.otf /var/mobile/Documents/SFUIDisplayCondensed-Light.otf_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Medium.otf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Medium.otf /var/mobile/Documents/SFUIDisplayCondensed-Medium.otf_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Regular.otf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Regular.otf /var/mobile/Documents/SFUIDisplayCondensed-Regular.otf_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Semibold.otf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Semibold.otf /var/mobile/Documents/SFUIDisplayCondensed-Semibold.otf_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Thin.otf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Thin.otf /var/mobile/Documents/SFUIDisplayCondensed-Thin.otf_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/SFUIDisplayCondensed-Ultralight.otf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/SFUIDisplayCondensed-Ultralight.otf /var/mobile/Documents/SFUIDisplayCondensed-Ultralight.otf_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/SFUITextCondensed-Bold.otf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/SFUITextCondensed-Bold.otf /var/mobile/Documents/SFUITextCondensed-Bold.otf_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/SFUITextCondensed-Heavy.otf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/SFUITextCondensed-Heavy.otf /var/mobile/Documents/SFUITextCondensed-Heavy.otf_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/SFUITextCondensed-Light.otf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/SFUITextCondensed-Light.otf /var/mobile/Documents/SFUITextCondensed-Light.otf_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/SFUITextCondensed-Medium.otf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/SSFUITextCondensed-Medium.otf /var/mobile/Documents/SFUITextCondensed-Medium.otf_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/SFUITextCondensed-Regular.otf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/SFUITextCondensed-Regular.otf /var/mobile/Documents/SFUITextCondensed-Regular.otf_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/SFUITextCondensed-Semibold.otf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreAddition/SFUITextCondensed-Semibold.otf /var/mobile/Documents/SFUITextCondensed-Semibold.otf_bac
+	echo 'Back up'
+fi
+
+
+
+
+
+if [ -f /var/mobile/Documents/SFUIDisplay.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreUI/SFUIDisplay.ttf /var/mobile/Documents/SFUIDisplay.ttf_bac
+	echo 'Back up'
+fi
+
+if [ -f /var/mobile/Documents/SFUIText.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreUI/SFUIText.ttf /var/mobile/Documents/SFUIText.ttf_bac
+	echo 'Back up'
+fi
+if [ -f /var/mobile/Documents/SFUITextItalic.ttf_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/CoreUI/SFUITextItalic.ttf /var/mobile/Documents/SFUITextItalic.ttf_bac
+	echo 'Back up'
+fi
+
+
+
+if [ -f /var/mobile/Documents/PingFang.ttc_bac ];then
+    echo 'Got it'
+else
+    cp -p /System/Library/Fonts/LanguageSupport/PingFang.ttc /var/mobile/Documents/PingFang.ttc_bac
+	echo 'Back up'
+fi
+
+
+exit 0

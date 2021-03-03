@@ -1,25 +1,3 @@
-Package: app.weiphone.app.txs.hksn
-Version: 1.0
-Architecture: iphoneos-arm
-Essential: no
-Maintainer: Feng.com <support@office.feng.com>
-Installed-Size: 60104704
-Depends: firmware (>= 10),shell-cmds,dpkg
-Filename: debs/少女字體.deb
-Size: 23561116
-MD5sum: f76ed41a3450f5549aa491622676b721
-SHA1: 29817e6844d71c82d77c969fb577b5ea42d69ee8
-SHA256: 2021665c85dad2d1e2d6db69676a8868993df3f2efec33e197d76c2838eff87b
-Section: [威锋源-系统字体]
-Priority: standard
-Homepage: http://apt.so/index.php?r=read&id=58bfc6e85439fd222f8b4621
-Description: 华康少女 for ios10.2。安装自动备份原字体，卸载后自动还原字体。
-Tag: role::enduser
-Author: 涛先森博客源 <849331499@qq.com>
-Depiction: http://apt.so/index.php?r=cydia&id=58bfc6e85439fd222f8b4621
-Name: 华康少女 for ios10.2
-Sponsor: Feng.com <http://www.feng.com>
-
 Package: app.weiphone.app.txs.hkww
 Version: 1.0
 Architecture: iphoneos-arm
@@ -55,4 +33,21 @@ Section: 主题美化
 Author: Netskao
 Icon: https://apt.wxhbts.com/icon/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96.png
 Name: iOS12状态栏(仿iOS10 For 4.7)
+
+Package: font.lingfeng.huakangfonts
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 陳昱昱
+Installed-Size: 60104704
+Depends: firmware (>= 10),shell-cmds,dpkg
+Filename: debs/iOS 13美化字體.deb
+Size: 19510852
+MD5sum: f141db0ed0a59676268a6a36b83bf5c2
+SHA1: 81a75e87b7c401b44974d2d6a176744b98d6978d
+SHA256: ed9db52799de7db6ac8d54912254825f713d069bb359593ae997f64ada31135a
+Section: 字體
+Priority: optional
+Description: 華康綜合體 for iOS 10~13
+Author: 陳昱昱
+Name: 華康綜合體
 

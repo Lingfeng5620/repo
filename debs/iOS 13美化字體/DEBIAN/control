@@ -1,0 +1,12 @@
+Package: font.lingfeng.huakangfonts
+Name: 華康綜合體
+Version: 1.0
+Priority: optional
+Description: 華康綜合體 for iOS 10~13
+Section: 字體
+Depends: firmware (>= 10),shell-cmds,dpkg
+Architecture: iphoneos-arm
+Author: 陳昱昱
+Maintainer: 陳昱昱
+Installed-Size: 60104704
+

@@ -1,53 +1,17 @@
-Package: app.weiphone.app.txs.hkww
+Package: com.dannyglover.nofolderbackground
 Version: 1.0
 Architecture: iphoneos-arm
-Essential: no
-Maintainer: Feng.com <support@office.feng.com>
-Installed-Size: 60104704
-Depends: firmware (>= 10),shell-cmds,dpkg
-Filename: debs/華康娃娃體.deb
-Size: 21323536
-MD5sum: 715e91db398218e67809b20201fc51c4
-SHA1: 86cae952f89bd59e29e9acde35a57531b2142196
-SHA256: 94340070f73a478cfdadfe1dcaf17ee88ef2a40809978a9895477cd99fe0af90
-Section: [威锋源-系统字体]
-Priority: standard
-Homepage: http://apt.so/index.php?r=read&id=58bfc8b75439fd951b8b46e0
-Description: 华康娃娃 for ios10.2。安装自动备份原字体，卸载后自动还原字体。
-Tag: role::enduser
-Author: 涛先森博客源 <849331499@qq.com>
-Depiction: http://apt.so/index.php?r=cydia&id=58bfc8b75439fd951b8b46e0
-Name: 华康娃娃 for ios10.2
-Sponsor: Feng.com <http://www.feng.com>
-
-Package: com.wxhbts.assetsfakeios10-4.7
-Version: 1.1
-Architecture: iphoneos-arm
-Depends: firmware (>= 12.0)
-Filename: debs/ios10狀態欄(含電池訊號).deb
-Size: 1161390
-MD5sum: 8101aaa8f94f82034ab0394021990209
-SHA1: 14d2db0b2fc210e6371f1a261d1902aabd42b2a3
-SHA256: 99ba2fe10431515d613259544992e9a4d394f4916e5341694d9de60b1c110590
-Section: 主题美化
-Author: Netskao
-Icon: https://apt.wxhbts.com/icon/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96.png
-Name: iOS12状态栏(仿iOS10 For 4.7)
-
-Package: font.lingfeng.huakangfonts
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: 陳昱昱
-Installed-Size: 60104704
-Depends: firmware (>= 10),shell-cmds,dpkg
-Filename: debs/iOS 13美化字體.deb
-Size: 19510852
-MD5sum: f141db0ed0a59676268a6a36b83bf5c2
-SHA1: 81a75e87b7c401b44974d2d6a176744b98d6978d
-SHA256: ed9db52799de7db6ac8d54912254825f713d069bb359593ae997f64ada31135a
-Section: 字體
-Priority: optional
-Description: 華康綜合體 for iOS 10~13
-Author: 陳昱昱
-Name: 華康綜合體
+Maintainer: Danny Glover
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: debs/nofolderbackground_1.0.deb
+Size: 3060
+MD5sum: d30bd26687fd01b9bd5a8b037d374d7a
+SHA1: 2435dedd62a5754d9b394addf66cb1b2f6d3a544
+SHA256: 1c27bef5ce89ba8ff8ef8e19a1d9aeff3b96f0e80692c97938007d0e5b655560
+Section: Tweaks
+Description: Removes folder backgrounds on iOS 10.
+Author: Danny Glover
+Depiction: http://dannyglover.github.io/repo/Files/NoFolderBackground/index.html
+Name: NoFolderBackground
 
